@@ -13,7 +13,8 @@ for i in range (0,angabe):
 
 	if(schaetzung == zahl):
 		counter=counter+1
-		print("Deine Zahl", schaetzung, "wurde", counter ,"mal gezogen")
 		
 	else:
 		print("Verloren")
+
+print("Deine Zahl", schaetzung, "wurde", counter ,"mal gezogen")
