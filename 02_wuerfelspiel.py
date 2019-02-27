@@ -12,5 +12,5 @@ for i in range (0,angabe):
 
 if schaetzung == zahl:
 	print("Deine Zahl wurde gezogen")
-if schaetzung != zahl:
+else schaetzung != zahl:
 	print("Verloren")
