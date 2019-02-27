@@ -3,7 +3,7 @@ angabe = input("Wie oft soll gewürfelt werden")
 schaetzung = input("Welche Zahl wird gezogen")
 schaetzung = int(schaetzung)
 angabe = int(angabe)
-for zahl in range (0,angabe)
+for i in range (0,angabe):
 	import random
     random.seed()
     zahl = random.randint(1,6)
