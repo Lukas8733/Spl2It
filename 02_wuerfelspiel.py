@@ -5,13 +5,15 @@ angabe = input("Wie oft soll gewürfelt werden")
 schaetzung = input("Welche Zahl wird gezogen")
 schaetzung = int(schaetzung)
 angabe = int(angabe)
+counter =0
     
 for i in range (0,angabe):
 	zahl = random.randint(1,6)
 	print(zahl)
 
 	if(schaetzung == zahl):
-		print("Deine Zahl wurde gezogen")
-	break
+		counter=counter+1
+		print("Deine Zahl", schaetzung, "wurde", counter ,"mal gezogen")
+		break
 	else:
 		print("Verloren")
