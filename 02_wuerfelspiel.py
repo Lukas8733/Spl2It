@@ -10,9 +10,9 @@ for i in range (0,angabe):
 	zahl = random.randint(1,6)
 	print(zahl)
 
-if schaetzung == zahl:
-	print("Deine Zahl wurde gezogen")
+	if schaetzung == zahl:
+		print("Deine Zahl wurde gezogen")
 	break
 	
-elif schaetzung != zahl:
+	elif schaetzung != zahl:
 	print("Verloren")
