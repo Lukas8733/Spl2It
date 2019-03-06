@@ -6,7 +6,8 @@ lottogezogen = []
 for i in range(0,6):
 	ziehung = random.randint(1,45)
 	x = lottozahlen(ziehung)
-	lottogezogen.append(x)
 	lottozahlen.remove(x)
+	lottogezogen.append(x)
+	
 print(lottogezogen)
 	
