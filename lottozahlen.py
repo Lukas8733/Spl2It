@@ -5,11 +5,10 @@ lottozahlen = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
 lottogezogen = []
 for i in range(1,7):
 	lottogezogen.append(random.randint(1,45))
-	
-for z in lottogezogen:
-	for o in lottozahlen:
-		if(z == o):
-			lottozahlen.remove(z)
+	for z in lottogezogen:
+		for o in lottozahlen:
+			if(z == o):
+				lottozahlen.remove(z)
 
 	
 print(lottogezogen)
