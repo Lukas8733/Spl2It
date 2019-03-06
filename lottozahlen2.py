@@ -15,7 +15,6 @@ while tipps != lottogezogen:
 		x = lottozahlen.pop(i)
 		lottogezogen.append(x)
 	lottogezogen.sort()
-	print(lottogezogen)
 	if(lottogezogen != tipps):
 		counter = counter + 1
 	if(lottogezogen == tipps):
